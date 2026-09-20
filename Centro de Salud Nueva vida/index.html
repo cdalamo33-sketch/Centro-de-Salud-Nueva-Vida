@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centro de Salud "Nueva Vida"</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>CENTRO DE SALUD "NUEVA VIDA"</h1>
+        <nav>
+            <a href="#">INICIO</a> |
+            <a href="#">NOVEDADES</a> |
+            <a href="#">PROFESIONALES</a> |
+            <a href="#">ESPECIALIDADES</a> |
+            <a href="#">TURNOS</a> |
+            <a href="#">CUIDADOS BÁSICOS</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="info-section">
+            <p>
+                Los servicios que le ofrece el sistema sanitario en los centros de salud (atención primaria): 
+                Atención sanitaria a demanda, programada y urgente tanto en la consulta como en el domicilio del enfermo. 
+                Indicación o prescripción y realización, en su caso, de procedimientos diagnósticos y terapéuticos y envío a especialistas cuando esté indicado. 
+                Actividades en materia de prevención, promoción de la salud, atención familiar y atención comunitaria[cite: 2]:
+            </p>
+
+            <ul>
+                <li>Orientación sobre estilos de vida saludables[cite: 2].</li>
+                <li>Seguimiento del embarazo, preparación al parto[cite: 2].</li>
+                <li>Seguimiento del desarrollo de los niños[cite: 2].</li>
+                <li>Vacunación según calendario vacunal[cite: 2].</li>
+                <li>Revisiones bucodentales[cite: 2].</li>
+                <li>Prevención de riesgo cardiovascular[cite: 2].</li>
+                <li>Detección precoz de Cáncer de cuello uterino: Citología cada 3 años de 25 a 35 años y Citología y VPH cada 5 años de 35 a 65 años[cite: 2].</li>
+                <li>Detección precoz de Cáncer de mama: Mamografía cada 2 años a todas las mujeres entre 45 y 70 años[cite: 2].</li>
+                <li>Detección precoz de otros tumores en personas con riesgo[cite: 2].</li>
+            </ul>
+
+            <p>
+                Detección precoz de situaciones de riesgo sociosanitario (violencia de género, desamparo, maltrato, desatención...)[cite: 2]. 
+                Rehabilitación básica y fisioterapia[cite: 2]. Orientación y apoyo sobre los cuidados en salud[cite: 2]. 
+                Especialmente en pacientes dependientes y sus cuidadores familiares[cite: 2]. 
+                Manual de apoyo de cuidadores no profesionales (3.2 MB)[cite: 2] 
+                Educación a grupos de pacientes y cuidadores familiares[cite: 2]. 
+                Orientación sobre recursos sociales[cite: 2]. Cuidados paliativos[cite: 2]. 
+                Apoyo en la deshabituación tabáquica[cite: 2]. Línea 901 de Atención al Fumador (332 kbytes)[cite: 2]. 
+                Este enlace se abrirá en una ventana nueva[cite: 2]. 
+                Otros que por motivos de salud puedan precisar los pacientes[cite: 2]. 
+                Tramitaciones administrativas relacionadas con su salud (visado de recetas, cita, trámites de tarjeta sanitaria, etc)[cite: 2].
+            </p>
+
+            <p>
+                Los profesionales que le atenderán en los centros de salud son: 
+                <strong>El médico de familia:</strong> Es su médico de referencia en todo lo que concierne a su salud[cite: 2]. 
+                <strong>La enfermera:</strong> Le orienta y da apoyo en los cuidados de salud que precise con la ayuda de la auxiliar de enfermería[cite: 2]. 
+                <strong>El pediatra:</strong> Atiende los problemas específicos de la infancia, hasta los 14 años[cite: 2]. 
+                <strong>La matrona:</strong> Le presta cuidados específicos para el embarazo, menopausia, prevención de cánceres ginecológicos y aspectos de la salud propios de la mujer[cite: 2]. 
+                <strong>El trabajador social:</strong> Le ofrece apoyo y orientación en los recursos sociales[cite: 2]. 
+                <strong>El fisioterapeuta:</strong> Le aplica rehabilitación y fisioterapia[cite: 2]. 
+                <strong>El odontólogo:</strong> Le realiza prestaciones relacionadas con la salud bucodental[cite: 2]. 
+                <strong>El personal de apoyo administrativo:</strong> Celadores y auxiliares administrativos le orientan sobre los servicios que puede recibir y en las tramitaciones administrativas[cite: 2].
+            </p>
+        </section>
+
+        <section class="form-section">
+            <h2>FORMULARIO DE REGISTRO</h2>
+
+            <form id="registroForm">
+                <div class="form-group">
+                    <label for="nombre">NOMBRE:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="apellido">APELLIDO:</label>
+                    <input type="text" id="apellido" name="apellido" required>
+                </div>
+
+                <div class="form-group radio-group">
+                    <label>sexo:</label>
+                    <input type="radio" id="hombre" name="sexo" value="HOMBRE" required>
+                    <label for="hombre">HOMBRE</label>
+                    <input type="radio" id="mujer" name="sexo" value="MUJER" required>
+                    <label for="mujer">MUJER</label>
+                </div>
+
+                <button type="submit">ENVIAR</button>
+            </form>
+            
+            <div id="mensajeExito" class="hidden">
+                ¡Registro completado con éxito!
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

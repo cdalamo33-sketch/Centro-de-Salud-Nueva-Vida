@@ -1,0 +1,103 @@
+body {
+    font-family: Times New Roman, serif, Arial;
+    margin: 20px;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+header h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+nav {
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+nav a {
+    color: #4b0082;
+    text-decoration: underline;
+    margin: 0 4px;
+}
+
+.info-section p {
+    font-size: 13px;
+    line-height: 1.4;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+.info-section ul {
+    font-size: 13px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    padding-left: 20px;
+}
+
+.info-section li {
+    margin-bottom: 3px;
+}
+
+.form-section {
+    margin-top: 30px;
+}
+
+.form-section h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.form-group {
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.form-group label {
+    font-size: 13px;
+    width: 80px;
+    font-weight: bold;
+}
+
+.form-group input[type="text"] {
+    border: 1px solid #7a7a7a;
+    padding: 3px 5px;
+    width: 200px;
+}
+
+.radio-group label {
+    width: auto;
+    margin-right: 5px;
+    font-weight: normal;
+}
+
+.radio-group label:first-child {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+button[type="submit"] {
+    background-color: #efefef;
+    border: 1px solid #767676;
+    padding: 3px 12px;
+    font-size: 12px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+button[type="submit"]:hover {
+    background-color: #e0e0e0;
+}
+
+.hidden {
+    display: none;
+}
+
+#mensajeExito {
+    margin-top: 15px;
+    color: green;
+    font-weight: bold;
+}
